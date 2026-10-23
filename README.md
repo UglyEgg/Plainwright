@@ -10,6 +10,15 @@ itself when you need to edit it, then gets out of the way.
  · [Installation](docs/INSTALL.md)
  · [Report a problem](https://github.com/UglyEgg/Plainwright/issues/new?template=bug_report.yml)
 
+**1.0.1 is available:**
+[RPM](https://github.com/UglyEgg/Plainwright/releases/download/v1.0.1/plainwright-1.0.1-1.fc44.x86_64.rpm)
+ · [DEB](https://github.com/UglyEgg/Plainwright/releases/download/v1.0.1/plainwright_1.0.1-1ubuntu26.04.1_amd64.deb)
+ · [Flatpak](https://github.com/UglyEgg/Plainwright/releases/download/v1.0.1/plainwright-1.0.1.flatpak)
+ · [AppImage](https://github.com/UglyEgg/Plainwright/releases/download/v1.0.1/Plainwright-1.0.1-x86_64.AppImage)
+
+Ubuntu users: choose **1.0.1 or later**, which repairs a directory-permission
+defect in the original 1.0.0 DEB. See the release notes before installing.
+
 ![Plainwright editing an illustrated courtyard proposal, with formatted prose, a local image and a table.](images/writing.png)
 
 ## Write first. Go deeper when you need to.
@@ -41,7 +50,7 @@ The release notes are authoritative for available files and runtime requirements
 | RPM | Native package for Fedora 44, x86_64. |
 | DEB | Native package for Ubuntu 26.04, amd64—not a generic Debian/older Ubuntu package. |
 | Flatpak | Standalone bundle using the KDE 6.11 runtime. Not a Flathub listing. |
-| AppImage | Portable x86_64 distribution introduced with 1.0.1; see its release notes for the supported Linux baseline. |
+| AppImage | Portable x86_64 build; Ubuntu 26.04 / glibc 2.43 baseline. |
 
 An AppImage is not a promise of compatibility with every Linux distribution.
 Do not install an RPM or DEB built for a different operating-system baseline.

@@ -32,6 +32,12 @@ sudo apt install ./plainwright_VERSION-1ubuntu26.04.1_amd64.deb
 This package targets Ubuntu 26.04. It is not qualified for older Ubuntu releases,
 Linux Mint or Debian simply because they also use `.deb` files.
 
+Use **1.0.1 or later**. The original 1.0.0 DEB could make Plainwright's rendering
+assets unreadable to an ordinary user. Upgrading from 1.0.0 to 1.0.1 repairs only
+affected, root-owned directories owned solely by Plainwright. It does not change
+shared system-directory permissions. Do not apply broad `chmod` commands to
+system folders as a workaround.
+
 ## Flatpak
 
 Install Flatpak using your distribution's instructions. The standalone bundle
@@ -57,7 +63,14 @@ chmod +x Plainwright-VERSION-x86_64.AppImage
 ```
 
 If your system cannot mount AppImages through FUSE, consult the release's
-extract-and-run instructions. Do not disable the rendering sandbox or run the
+extract-and-run instructions. For 1.0.1:
+
+```sh
+APPIMAGE_EXTRACT_AND_RUN=1 ./Plainwright-1.0.1-x86_64.AppImage
+```
+
+The 1.0.1 AppImage was built on Ubuntu 26.04 with glibc 2.43. Portability does not
+mean it is qualified on older distributions. Do not disable the rendering sandbox or run the
 application as root to work around a startup problem.
 
 ## Open Markdown files
