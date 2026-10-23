@@ -1,0 +1,15 @@
+name: Suggest an improvement
+description: Tell us about a writing task Plainwright could handle better.
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do?
+      description: Describe the writing task and where the current workflow gets in your way.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: A suggested solution is welcome, but you do not need one to report friction.

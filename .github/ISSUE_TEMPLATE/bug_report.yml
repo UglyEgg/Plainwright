@@ -1,0 +1,35 @@
+name: Report a problem
+description: Something in Plainwright did not behave as expected.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Plainwright version
+      description: Find this in About Plainwright.
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package format
+      options:
+        - RPM
+        - DEB
+        - Flatpak
+        - AppImage
+    validations:
+      required: true
+  - type: input
+    id: desktop
+    attributes:
+      label: Distribution and desktop
+      placeholder: Fedora 44, KDE Plasma, Wayland
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened?
+      description: Include steps to reproduce, the result and what you expected. Remove sensitive content from examples and screenshots.
+    validations:
+      required: true
