@@ -8,6 +8,7 @@ itself when you need to edit it, then gets out of the way.
 
 [**Download Plainwright**](https://github.com/UglyEgg/Plainwright/releases/latest)
  · [Installation](docs/INSTALL.md)
+ · [OpenDesktop](https://www.opendesktop.org/p/2380147/)
  · [Report a problem](https://github.com/UglyEgg/Plainwright/issues/new?template=bug_report.yml)
 
 **1.0.1 is available:**
