@@ -11,11 +11,11 @@ itself when you need to edit it, then gets out of the way.
  · [OpenDesktop](https://www.opendesktop.org/p/2380147/)
  · [Report a problem](https://github.com/UglyEgg/Plainwright/issues/new?template=bug_report.yml)
 
-**1.1.0 is available:**
-[RPM](https://github.com/UglyEgg/Plainwright/releases/download/v1.1.0/plainwright-1.1.0-1.fc45.x86_64.rpm)
- · [DEB](https://github.com/UglyEgg/Plainwright/releases/download/v1.1.0/plainwright_1.1.0-1ubuntu26.04.1_amd64.deb)
- · [Flatpak](https://github.com/UglyEgg/Plainwright/releases/download/v1.1.0/plainwright-1.1.0.flatpak)
- · [AppImage](https://github.com/UglyEgg/Plainwright/releases/download/v1.1.0/Plainwright-1.1.0-x86_64.AppImage)
+**1.1.1 is available:**
+[RPM](https://github.com/UglyEgg/Plainwright/releases/download/v1.1.1/plainwright-1.1.1-1.fc45.x86_64.rpm)
+ · [DEB](https://github.com/UglyEgg/Plainwright/releases/download/v1.1.1/plainwright_1.1.1-1ubuntu26.04.1_amd64.deb)
+ · [Flatpak](https://github.com/UglyEgg/Plainwright/releases/download/v1.1.1/plainwright-1.1.1.flatpak)
+ · [AppImage](https://github.com/UglyEgg/Plainwright/releases/download/v1.1.1/Plainwright-1.1.1-x86_64.AppImage)
 
 Ubuntu users: choose **1.0.1 or later**, which repairs a directory-permission
 defect in the original 1.0.0 DEB. See the release notes before installing.
@@ -45,7 +45,7 @@ toolbar, project rail or split preview to be available.
 
 Download the format listed for your system in the
 [latest release](https://github.com/UglyEgg/Plainwright/releases/latest).
-Plainwright 1.1.0 requires a Wayland desktop session. The release notes list the distribution baselines.
+Plainwright 1.1.1 requires a Wayland desktop session. The release notes list the distribution baselines.
 
 | Format | Intended use |
 | --- | --- |

@@ -3,7 +3,7 @@
 Choose an asset from the [latest release](https://github.com/UglyEgg/Plainwright/releases/latest)
 that matches your operating system and architecture. The commands below assume
 you have changed into the folder containing the downloaded file. Replace each
-example filename with the exact asset name from that release. Plainwright 1.1.0 requires a Wayland desktop session.
+example filename with the exact asset name from that release. Plainwright 1.1.1 requires a Wayland desktop session.
 
 ## Verify the download
 
@@ -63,13 +63,13 @@ chmod +x Plainwright-VERSION-x86_64.AppImage
 ```
 
 If your system cannot mount AppImages through FUSE, consult the release's
-extract-and-run instructions. For 1.1.0:
+extract-and-run instructions. For 1.1.1:
 
 ```sh
-APPIMAGE_EXTRACT_AND_RUN=1 ./Plainwright-1.1.0-x86_64.AppImage
+APPIMAGE_EXTRACT_AND_RUN=1 ./Plainwright-1.1.1-x86_64.AppImage
 ```
 
-The 1.1.0 AppImage was built on Ubuntu 26.04 with glibc 2.43. Portability does not
+The 1.1.1 AppImage is built on Ubuntu 26.04 with glibc 2.43. Portability does not
 mean it is qualified on older distributions. Do not disable the rendering sandbox or run the
 application as root to work around a startup problem.
 
